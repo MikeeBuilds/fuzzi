@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 type Props = {}
@@ -17,6 +18,25 @@ const Navbar = (props: Props) => {
             />
             <p className='text-3xl font-bold'>zii</p>
         </aside>
+        <nav className='absolute left-[50%] top-[50%] transform translate-x-[50%] translate-y-[50%] hidden md:block'> 
+        <ul>
+            <li>
+                <Link href="#">Products</Link>
+            </li>
+            <li>
+                <Link href="#">Pricing</Link>
+            </li>
+            <li>
+                <Link href="#">Clients</Link>
+            </li>
+            <li>
+                <Link href="#">Resources</Link>
+            </li>
+            <li>
+                <Link href="#">Docu</Link>
+            </li>
+        </ul>
+        </nav>
     </header>
   )
 }

@@ -84,9 +84,9 @@ export default function Home() {
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white text-xs font-normal dark:text-black"
+                    
                 >
-                  Get Started Now
+                  
                 </CardItem>
               </div>
             </CardBody>
